@@ -19,14 +19,6 @@ const DEFAULT_PRIMARY_CHARS = [
   'w',
   'x',
   'z',
-  '(',
-  ')',
-  '{',
-  '}',
-  '[',
-  ']',
-  '-',
-  '_'
 ]
 
 const ALL_ALLOWED_CHARS = [
@@ -56,7 +48,8 @@ const ALL_ALLOWED_CHARS = [
   '<',
   '>',
   '-',
-  '_'
+  '_',
+  '#'
 ]
 
 function combineElements(arrA: string[], arrB: string[], callback: (s: string) => void): void {
